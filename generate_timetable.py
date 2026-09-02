@@ -19,6 +19,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 
+# The first eight colors are kept for existing timetables.
+# The remaining ten colors are backups for additional courses.
 PALETTE = [
     "#7c3aed",
     "#0891b2",
@@ -28,6 +30,16 @@ PALETTE = [
     "#2563eb",
     "#be185d",
     "#65a30d",
+    "#9333ea",
+    "#0f766e",
+    "#ea580c",
+    "#16a34a",
+    "#e11d48",
+    "#4f46e5",
+    "#ca8a04",
+    "#0284c7",
+    "#c026d3",
+    "#4d7c0f",
 ]
 
 
